@@ -1,16 +1,19 @@
 import { McpServer } from "skybridge/server";
-import { registerWidgets } from "./widgets-register";
+import { magic8Ball } from "./widgets-register";
 
-const baseServer = new McpServer(
+const server = new McpServer(
   {
     name: "mcp-ui-kit",
     version: "0.0.1",
   },
   { capabilities: {} }
+).registerWidget(
+  magic8Ball.name,
+  magic8Ball.metadata,
+  magic8Ball.toolConfig,
+  magic8Ball.handler
 );
-
-// Register all widgets from the widgets register
-const server = registerWidgets(baseServer);
+// Chain more widgets here: .registerWidget(anotherWidget.name, ...)
 
 export default server;
 export type AppType = typeof server;
