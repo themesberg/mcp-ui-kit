@@ -26,7 +26,7 @@ function CheckboxOptionsWidget() {
 
   if (isPending) {
     return (
-      <div className={`${theme} bg-white dark:bg-gray-900 p-6`}>
+      <div className={`${theme} bg-neutral-primary p-6`}>
         <div role="status" className="flex items-center justify-center">
           <svg
             aria-hidden="true"
@@ -52,7 +52,7 @@ function CheckboxOptionsWidget() {
 
   if (!output) {
     return (
-      <div className={`${theme} bg-white dark:bg-gray-900 p-6`}>
+      <div className={`${theme} bg-neutral-primary p-6`}>
         <p className="text-gray-500 dark:text-gray-400">No question available.</p>
       </div>
     );
@@ -63,9 +63,9 @@ function CheckboxOptionsWidget() {
     .map((opt) => opt.label);
 
   return (
-    <div className={`${theme} bg-white dark:bg-gray-900 p-6`}>
+    <div className={`${theme} bg-neutral-primary p-6`}>
       <fieldset>
-        <legend className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+        <legend className="text-lg font-semibold text-heading mb-4">
           {output.question}
         </legend>
 
@@ -92,7 +92,7 @@ function CheckboxOptionsWidget() {
         {selected.length > 0 && (
           <div className="mt-6 p-4 rounded-lg bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-heading">
                 Selected:{" "}
               </span>
               {selectedLabels.join(", ")}

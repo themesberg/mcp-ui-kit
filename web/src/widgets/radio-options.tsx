@@ -53,7 +53,7 @@ function RadioOptionsWidget() {
   return (
     <div className={`${theme} bg-neutral-primary p-6`}>
       <fieldset>
-        <legend className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+        <legend className="text-lg font-semibold text-heading mb-4">
           {output.question}
         </legend>
 
@@ -82,7 +82,7 @@ function RadioOptionsWidget() {
         {selected && (
           <div className="mt-6 p-4 rounded-lg bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-heading">
                 Selected:{" "}
               </span>
               {options.find((opt) => opt.id === selected)?.label}

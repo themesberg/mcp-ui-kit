@@ -109,13 +109,13 @@ function EcomCarousel() {
       <section className={`${theme} bg-white py-8 antialiased dark:bg-gray-900`}>
         <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
           <div className="mx-auto max-w-3xl">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">
+            <h2 className="text-xl font-semibold text-heading sm:text-2xl">
               Order summary
             </h2>
 
             <div className="mt-6 sm:mt-8">
               <div className="relative overflow-x-auto border-b border-gray-200 dark:border-gray-800">
-                <table className="w-full text-left font-medium text-gray-900 dark:text-white md:table-fixed">
+                <table className="w-full text-left font-medium text-heading md:table-fixed">
                   <tbody className="divide-y divide-gray-200 dark:divide-gray-800">
                     {cartItems.map((item) => (
                       <tr key={item.id}>
@@ -133,10 +133,10 @@ function EcomCarousel() {
                             </span>
                           </div>
                         </td>
-                        <td className="p-4 text-base font-normal text-gray-900 dark:text-white">
+                        <td className="p-4 text-base font-normal text-heading">
                           x1
                         </td>
-                        <td className="p-4 text-right text-base font-bold text-gray-900 dark:text-white">
+                        <td className="p-4 text-right text-base font-bold text-heading">
                           ${item.price.toFixed(2)}
                         </td>
                       </tr>
@@ -146,7 +146,7 @@ function EcomCarousel() {
               </div>
 
               <div className="mt-4 space-y-6">
-                <h4 className="text-xl font-semibold text-gray-900 dark:text-white">
+                <h4 className="text-xl font-semibold text-heading">
                   Order summary
                 </h4>
 
@@ -156,7 +156,7 @@ function EcomCarousel() {
                       <dt className="text-gray-500 dark:text-gray-400">
                         Original price
                       </dt>
-                      <dd className="text-base font-medium text-gray-900 dark:text-white">
+                      <dd className="text-base font-medium text-heading">
                         ${total.toFixed(2)}
                       </dd>
                     </dl>
@@ -165,24 +165,24 @@ function EcomCarousel() {
                       <dt className="text-gray-500 dark:text-gray-400">
                         Shipping
                       </dt>
-                      <dd className="text-base font-medium text-gray-900 dark:text-white">
+                      <dd className="text-base font-medium text-heading">
                         ${shipping.toFixed(2)}
                       </dd>
                     </dl>
 
                     <dl className="flex items-center justify-between gap-4">
                       <dt className="text-gray-500 dark:text-gray-400">Tax</dt>
-                      <dd className="text-base font-medium text-gray-900 dark:text-white">
+                      <dd className="text-base font-medium text-heading">
                         ${tax.toFixed(2)}
                       </dd>
                     </dl>
                   </div>
 
                   <dl className="flex items-center justify-between gap-4 border-t border-gray-200 pt-2 dark:border-gray-700">
-                    <dt className="text-lg font-bold text-gray-900 dark:text-white">
+                    <dt className="text-lg font-bold text-heading">
                       Total
                     </dt>
-                    <dd className="text-lg font-bold text-gray-900 dark:text-white">
+                    <dd className="text-lg font-bold text-heading">
                       ${grandTotal.toFixed(2)}
                     </dd>
                   </dl>
@@ -332,7 +332,7 @@ function EcomCarousel() {
                   </div>
                 </div>
 
-                <h3 className="text-lg font-semibold leading-tight text-gray-900 dark:text-white line-clamp-2">
+                <h3 className="text-lg font-semibold leading-tight text-heading line-clamp-2">
                   {product.title}
                 </h3>
 
@@ -340,7 +340,7 @@ function EcomCarousel() {
                   <div className="flex items-center">
                     {renderStars(product.rating.rate)}
                   </div>
-                  <p className="text-sm font-medium text-gray-900 dark:text-white">
+                  <p className="text-sm font-medium text-heading">
                     {product.rating.rate.toFixed(1)}
                   </p>
                   <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
@@ -392,7 +392,7 @@ function EcomCarousel() {
                 </ul>
 
                 <div className="mt-4 flex items-center justify-between gap-4">
-                  <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">
+                  <p className="text-2xl font-extrabold leading-tight text-heading">
                     ${product.price.toFixed(2)}
                   </p>
 
