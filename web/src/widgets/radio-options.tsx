@@ -67,11 +67,11 @@ function RadioOptionsWidget() {
                 value={option.id}
                 checked={selected === option.id}
                 onChange={() => setSelected(option.id)}
-                className="w-4 h-4 text-brand bg-gray-100 border-gray-300 focus:ring-brand focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-brand dark:ring-offset-gray-800"
+                className="w-4 h-4 text-neutral-primary border border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle appearance-none"
               />
               <label
                 htmlFor={`radio-${option.id}`}
-                className="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300 cursor-pointer"
+                className="select-none ms-2 text-sm font-medium text-heading cursor-pointer"
               >
                 {option.label}
               </label>
@@ -80,8 +80,8 @@ function RadioOptionsWidget() {
         </div>
 
         {selected && (
-          <div className="mt-6 p-4 rounded-lg bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+          <div className="mt-6 p-4 rounded-lg bg-neutral-primary-soft border border-default">
+            <p className="text-sm text-body">
               <span className="font-medium text-heading">
                 Selected:{" "}
               </span>
