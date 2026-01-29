@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { chartData } from "../data/chart-data";
+import { websiteTrafficData, type WebsiteKey } from "../data/chart-data";
 
 // Line Chart widget configuration
 export const lineChartWidget = {
@@ -8,15 +8,18 @@ export const lineChartWidget = {
     description: "Line Chart Display",
   },
   toolConfig: {
-    description: "Display a line chart based on a question.",
+    description: "Display website traffic statistics for the last 30 days.",
     inputSchema: {
-      question: z.string().describe("The question or title for the chart"),
+      website: z
+        .enum(["flowbite.com", "themesberg.com"])
+        .describe("Select a website to view traffic statistics"),
     },
   },
-  handler: async ({ question }: { question: string }) => {
+  handler: async ({ website }: { website: WebsiteKey }) => {
     try {
+      const chartData = websiteTrafficData[website];
       return {
-        structuredContent: { question, chartData },
+        structuredContent: { website, chartData },
         content: [],
         isError: false,
       };

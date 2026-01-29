@@ -131,7 +131,7 @@ function LineChartWidget() {
     <div className={`${theme} bg-neutral-primary p-6 rounded-lg`}>
       <div className="mb-4">
         <h3 className="text-xl font-semibold text-heading">
-          Line chart example
+          Last 30 days traffic for {output.website}
         </h3>
       </div>
       <Chart
