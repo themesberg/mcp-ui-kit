@@ -1,3 +1,5 @@
+*Disclaimer: human written readme*
+
 # MCP UI Kit starter for MCP and ChatGPT apps
 
 This is an open-source library of UI components, widgets and examples that you can use to build MCP and ChatGPT apps for the major AI providers like Claude, ChatGPT, Gemini, and more. The examples include basic text components, radio, checkbox selection prompts, charts, e-commerce examples, qr code generation, tables, and more.
@@ -45,6 +47,8 @@ The components are all based on the open-source UI component library called [Flo
 - [React](https://react.dev/) for React stuff
 
 ### Local Development
+
+Getting started locally is as easy as running the install command with your favourite package manager.
 
 #### 1. Install
 

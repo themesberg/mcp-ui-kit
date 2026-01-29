@@ -1,5 +1,3 @@
-import { z } from "zod";
-
 // Flowbite Pro CTA widget configuration
 export const flowbiteCtaWidget = {
   name: "more-components" as const,

@@ -12,7 +12,7 @@ export const basicTextWidget = {
       question: z.string().describe("The user's question."),
     },
   },
-  handler: async ({ question }: { question: string }) => {
+  handler: async () => {
     try {
       const answer = "Hello, world!";
       return {
