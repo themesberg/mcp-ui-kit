@@ -6,17 +6,29 @@ The components are all based on the open-source UI component library called [Flo
 
 ## MCP Widgets
 
-| Basic text | Checkbox options |
-|:---:|:---:|
-| ![Basic text](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-basic-text.png) | ![Checkbox options](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-checkbox.png) |
+| Basic text |
+|:---:|
+| ![Basic text](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-basic-text.png) |
 
-| Radio options | Data table |
-|:---:|:---:|
-| ![Radio options](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-radio.png) | ![Data table](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-data-table.png) |
+| Checkbox options |
+|:---:|
+| ![Checkbox options](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-checkbox.png) |
 
-| E-commerce | Qr code |
-|:---:|:---:|
-| ![E-commerce](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-ecommerce.png) | ![Qr code](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-qr-code.png) |
+| Radio options |
+|:---:|
+| ![Radio options](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-radio.png) |
+
+| Data table |
+|:---:|
+| ![Data table](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-data-table.png) |
+
+| E-commerce |
+|:---:|
+| ![E-commerce](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-ecommerce.png) |
+
+| Qr code |
+|:---:|
+| ![Qr code](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-qr-code.png) |
 
 | Charts |
 |:---:|
