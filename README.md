@@ -6,33 +6,33 @@ The components are all based on the open-source UI component library called [Flo
 
 ## MCP Widgets
 
-| Basic text |
+| Show basic text content based on user input |
 |:---:|
-| ![Basic text](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-basic-text.png) |
+| ![Show basic text content based on user input](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-basic-text.png) |
 
-| Checkbox options |
+| Show a list of checkbox options for the user |
 |:---:|
-| ![Checkbox options](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-checkbox.png) |
+| ![Show a list of checkbox options for the user](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-checkbox.png) |
 
-| Radio options |
+| Show a list of radio options for the user |
 |:---:|
-| ![Radio options](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-radio.png) |
+| ![Show a list of radio options for the user](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-radio.png) |
 
-| Data table |
+| Show a table with data that can be searched and filtered |
 |:---:|
-| ![Data table](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-data-table.png) |
+| ![Show a table with data that can be searched and filtered](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-data-table.png) |
 
-| E-commerce |
+| Show a list of e-commerce products that you can add to the cart |
 |:---:|
-| ![E-commerce](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-ecommerce.png) |
+| ![Show a list of e-commerce products that you can add to the cart](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-ecommerce.png) |
 
-| Qr code |
+| Generate a qr code based on the user input |
 |:---:|
-| ![Qr code](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-qr-code.png) |
+| ![Generate a qr code based on the user input](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-qr-code.png) |
 
-| Charts |
+| Show chart data based on the API data |
 |:---:|
-| ![Charts](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-chart.png) |
+| ![Show chart data based on the API data](https://flowbite.s3.us-east-1.amazonaws.com/mcp-ui-kit/mcp-chart.png) |
 
 ## Getting Started
 
@@ -84,11 +84,6 @@ This command starts an Express server on port 3000. This server packages:
 ngrok http 3000
 ```
 - In ChatGPT, navigate to **Settings → Connectors → Create** and add the forwarding URL provided by ngrok suffixed with `/mcp` (e.g. `https://3785c5ddc4b6.ngrok-free.app/mcp`)
-
-## Deploy to Production
-
-- Use [Alpic](https://alpic.ai/) to deploy your OpenAI App to production
-- In ChatGPT, navigate to **Settings → Connectors → Create** and add your MCP server URL (e.g., `https://your-app-name.alpic.live`)
 
 ## Resources
 
