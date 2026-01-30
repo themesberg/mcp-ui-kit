@@ -211,7 +211,7 @@ In the Claude Code terminal UI, use `/mcp` to view actively connected MCP server
 </details>
 
 <details>
-<summary><b>Install in Codex</b></summary>
+<summary><img src="https://github.com/user-attachments/assets/4796fcfc-1ddf-4f68-82d0-030a2af62b17" width="16"> <b>Install in Codex</b></summary>
 
 MCP configuration for Codex is stored in `~/.codex/config.toml` and is shared between the CLI and the IDE extension.
 
