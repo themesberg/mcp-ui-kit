@@ -1,4 +1,6 @@
-# MCP UI components to build apps for ChatGPT, Gemini, Claude
+# MCP UI components
+
+## Build apps for ChatGPT, Gemini, Claude and any MCP clients (Cursor, Windsurf)
 
 This is an open-source library of UI components, widgets and examples that you can use to build MCP apps that can work as ChatGPT apps, Gemini apps, Claude apps, and any other MCP client like Cursor or Windsurf. The examples include basic text components, radio, checkbox selection prompts, charts, e-commerce examples, qr code generation, tables, and more.
 
