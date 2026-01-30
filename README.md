@@ -2,7 +2,7 @@
 
 This is an open-source library of UI components, widgets and examples that you can use to build MCP apps that can work as ChatGPT apps, Gemini apps, Claude apps, and any other MCP client like Cursor or Windsurf. The examples include basic text components, radio, checkbox selection prompts, charts, e-commerce examples, qr code generation, tables, and more.
 
-The components are all based on the open-source [Flowbite](https://github.com/themesberg/flowbite) UI component library called using Tailwind CSS classes and you can also update the `index.css` file to [update the theming](https://flowbite.com/docs/customize/theming/) from the default setting to minimal, mono, playful, enterprise or create your own.
+The components are based on the [Flowbite UI framework](https://github.com/themesberg/flowbite) using Tailwind CSS and the [SkyBridge framework](https://github.com/alpic-ai/skybridge) for building MCP apps.
 
 https://github.com/user-attachments/assets/19626e5d-0181-4a8f-98aa-fb51ac2adbc7
 
