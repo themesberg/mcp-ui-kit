@@ -1,12 +1,12 @@
 import { McpServer } from "skybridge/server";
-import { basicTextWidget } from "./widgets/basic-text-server";
-import { checkboxOptionsWidget } from "./widgets/checkbox-options-server";
-import { dataTableWidget } from "./widgets/data-table-server";
-import { ecomCarouselWidget } from "./widgets/e-commerce-server";
-import { flowbiteCtaWidget } from "./widgets/flowbite-cta-server";
-import { lineChartWidget } from "./widgets/line-chart-server";
-import { qrCodeWidget } from "./widgets/qr-code-server";
-import { radioOptionsWidget } from "./widgets/radio-options-server";
+import { basicTextWidget } from "./widgets/basic-text-server.js";
+import { checkboxOptionsWidget } from "./widgets/checkbox-options-server.js";
+import { dataTableWidget } from "./widgets/data-table-server.js";
+import { ecomCarouselWidget } from "./widgets/e-commerce-server.js";
+import { flowbiteCtaWidget } from "./widgets/flowbite-cta-server.js";
+import { lineChartWidget } from "./widgets/line-chart-server.js";
+import { qrCodeWidget } from "./widgets/qr-code-server.js";
+import { radioOptionsWidget } from "./widgets/radio-options-server.js";
 
 const server = new McpServer(
   {

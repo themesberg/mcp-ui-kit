@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { websiteTrafficData, type WebsiteKey, type DateRangeKey } from "../data/chart-data";
+import { websiteTrafficData, type WebsiteKey, type DateRangeKey } from "../data/chart-data.js";
 
 // Date range labels for display
 const dateRangeLabels: Record<DateRangeKey, string> = {

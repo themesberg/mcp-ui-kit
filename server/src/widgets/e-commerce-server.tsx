@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { products } from "../data/products";
+import { products } from "../data/products.js";
 
 export type Product = {
   id: number;

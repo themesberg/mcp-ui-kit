@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { tableData } from "../data/table-data";
+import { tableData } from "../data/table-data.js";
 
 // Data Table widget configuration
 export const dataTableWidget = {
