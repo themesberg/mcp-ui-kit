@@ -4,6 +4,10 @@ This is an open-source library of UI components, widgets and examples that you c
 
 The components are all based on the open-source [Flowbite](https://github.com/themesberg/flowbite) UI component library called using Tailwind CSS classes and you can also update the `index.css` file to [update the theming](https://flowbite.com/docs/customize/theming/) from the default setting to minimal, mono, playful, enterprise or create your own.
 
+https://github.com/user-attachments/assets/19626e5d-0181-4a8f-98aa-fb51ac2adbc7
+
+- [Live demo](https://mcp-ui-kit-c89068fd.alpic.live/try)
+
 ## MCP UI components
 
 This is the full list of open-source components and widgets available:
