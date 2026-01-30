@@ -55,9 +55,9 @@ This command starts an Express server on port 3000. This server packages:
 - a React application on Vite HMR dev server (the UI elements to be displayed in the host)
 - a set of widget examples built with Flowbite UI components
 
-### 3. Connect to AI clients like ChatGPT, Gemini, and Claude
+### 3. Create a connector with Ngrok
 
-Using Ngrok we need to create an accessible connector:
+Using Ngrok you need to create an accessible connector:
 
 ```bash
 ngrok http 3000
@@ -70,6 +70,8 @@ https://3785c5ddc4b6.ngrok-free.app/mcp
 ```
 
 Note: make sure you add the `/mcp` folder to the URL when registering an app.
+
+### 4. Connect to AI clients like ChatGPT, Gemini, and Claude
 
 Check out the following guides to learn how to integrate with each AI client:
 
