@@ -1,7 +1,14 @@
 {
   "name": "mcp-ui-kit",
   "version": "0.0.1",
-  "description": "MCP UI Toolkit based on Skybdrige Framework and Flowbite UI components",
+  "description": "Collection of MCP UI components built with Skybridge Framework and Flowbite UI components",
+  "author": "Flowbite",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themesberg/mcp-ui-components"
+  },
+  "keywords": ["mcp", "ui", "components", "flowbite", "skybridge", "chatgpt", "claude", "gemini", "openai"],
   "type": "module",
   "scripts": {
     "dev": "skybridge dev",

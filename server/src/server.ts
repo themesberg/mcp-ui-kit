@@ -10,7 +10,7 @@ import { radioOptionsWidget } from "./widgets/radio-options-server.js";
 
 const server = new McpServer(
   {
-    name: "mcp-ui-kit",
+    name: "mcp-ui-components",
     version: "0.0.1",
   },
   { capabilities: {} }
