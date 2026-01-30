@@ -35,7 +35,7 @@ To start developing locally, you need to have Node and Ngrok installed.
 
 Getting started locally is as easy as running the install command with your favourite package manager.
 
-1. Install the local packages:
+### 1. Install the local packages:
 
 ```bash
 npm install
@@ -43,7 +43,7 @@ npm install
 
 You can also use bun, pnpm or yarn.
 
-2. Start a local server by running the following command:
+### 2. Start a local server by running the following command:
 
 ```bash
 npm run dev
@@ -55,7 +55,7 @@ This command starts an Express server on port 3000. This server packages:
 - a React application on Vite HMR dev server (the UI elements to be displayed in the host)
 - a set of widget examples built with Flowbite UI components
 
-3. Connect to AI clients like ChatGPT, Gemini, and Claude
+### 3. Connect to AI clients like ChatGPT, Gemini, and Claude
 
 Using Ngrok we need to create an accessible connector:
 
@@ -63,7 +63,7 @@ Using Ngrok we need to create an accessible connector:
 ngrok http 3000
 ```
 
-This will generate an accessible server like this:
+This will create a NGROK_FORWARDING_URL like this:
 
 ```
 https://3785c5ddc4b6.ngrok-free.app/mcp
@@ -80,10 +80,9 @@ Check out the following guides to learn how to integrate with each AI client:
 <li>Scroll down and click on Advanced Settings</li>
 <li>Enable Developer mode</li>
 <li>Go back to the Settings > Connectors page, and click on Create in the Browser Connectors section</li>
-<li>Add a custom connector with the MCP Server URL: `https://3785c5ddc4b6.ngrok-free.app/mcp`</li>
+<li>Add a custom connector with the MCP Server URL: [NGROK_FORWARDING_URL]/mcp</li>
 <li>Click on Create to add the MCP server as a Connector</li>
 <li>To use your newly created connector in the chat, click + then More and select it.</li>
-
 </details>
 
 ## Theming
