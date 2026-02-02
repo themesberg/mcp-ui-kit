@@ -1,4 +1,4 @@
-# MCP UI components
+# MCP UI by Flowbite
 
 ### Build apps for ChatGPT, Gemini, Claude and any MCP clients (Cursor, Windsurf)
 
